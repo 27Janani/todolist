@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #157577,#4e085f);
+
+}
+#wrapped{
+    margin: 0 auto;
+    box-shadow:0 2px 40px rgba(0,0,0,0.5);
+    padding: 50px;
+    color: #fff;
+    /* background: radial-gradient(#ca16ee,#f91e0f);  */
+    border-radius: 10px;
+
+}
+#wrapped > h1{
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bolder;
+    font-size: 2.5rem;
+}
+
+#single-task{
+    width:245px;
+    padding: 15px;
+}
+#task-area button{
+    background: linear-gradient(135deg, #771577,#4e085f);
+    border:none;
+    color: #fff;
+    padding:15px;
+    font-size:18px;
+    outline: none;
+    border-radius: 5px;
+}
+.task{
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    list-style:none ;
+    padding:0 15px;
+    line-height:35px;
+}
+
+input[type="text"]{
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.task .delete{
+    color: #153677;
+    cursor:pointer;
+    font-size: 30px;
+    margin: 0;
+    float: left;
+}
+
+.maincontent{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #771577,#4e085f);
+    padding: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.elements{
+    margin-top: 20px;
+}
+
+.maincontent > button{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.maincontent>h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.listofelements{
+    flex-grow: 1;
+}
